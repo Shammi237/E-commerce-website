@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Web.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>SS Burqa House</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>    
+                    <i id="addToCart" class="fas fa-shopping-cart" onclick="addToCart()"></i>
+                </li>
+            </ul>
+             
+        </nav>
+
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>SS Burqa House...</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>SS Burqa House offers elegant, high-quality burqas that blend tradition with modern style,
+                     crafted for comfort and sophistication.</p>
+                <button>Explore</button>
+            </div>
+            <img src="m3.png" alt="">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>SS <span>Women's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="srt1.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                    <h2>Hijraaz Aurora</h2>
+                                 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span> <br>
+                    <button >Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="srt2.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                    <h2>Floral Elegance</h2>
+                       
+                    <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+                   <span class="fa fa-star"></span> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                   <div class="crd">
+                     <img src="srt6.webp" alt="" onclick="show (this)">
+                     <div class="crdText">
+                      <h2>Haredi burqa</h2>
+        
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span><br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Women Card -->
+
+           
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>SS <span>Trends</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="wn4.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Abaya Infi-Laam</h2>
+                                <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn5.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Karchupi Klaival Abaya</h2>
+                             <span class="fa fa-star checked"></span>
+                             <span class="fa fa-star checked"></span>
+                             <span class="fa fa-star checked"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                          <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn6.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Dubai Arabic abaya</h2>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                             <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <p>At SS Burqa House, discover a diverse selection of high-quality burqas that seamlessly blend timeless tradition with contemporary elegance.</p> 
+                        <p>Each garment is crafted from premium fabrics with intricate detailing, catering to all tastes—from classic styles to modern designs.</p> 
+                        <p>Embrace modest fashion that prioritizes both comfort and sophistication, ensuring an effortlessly graceful look for every occasion.</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Who we are ?</h1>
+                            <p>We are a team committed to providing exceptional products and services, focusing on quality, style, and customer satisfaction.</p> 
+                            <p>Our goal is to create meaningful experiences by offering unique, thoughtful solutions tailored to meet the needs and preferences of our valued customers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Connect</h1>
+                        <p>Reach out to us today and stay in touch for updates, inquiries, or personalized assistance.</p>
+                        <p> We're here to help and look forward to hearing from you.</p>
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact <br>
+                                Us Today</h1>
+                            <p>Address : Zindabazar,Sylhet,Bangladesh.</p>
+                            <p>Contact :sumaiyaakthar@gmail.com</p>
+                            <p>Number : +0880180000000</p>
+                        </div>
+                        <img src="map.PNG" alt="">
+                    </div>
+
+                    <div class="form">
+                        <h1>Connect with Us. Fill Form</h1>
+                        <input type="text" placeholder="Your name"> <br>
+                        <input type="text" placeholder="Enter Email"> <br>
+                        <input type="text" placeholder="Write Message Here."><br>
+                        <button>Submit</button>
+
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                 
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>SS Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>$10</h2>
+                            <p>Discover the latest styles and exclusive deals at unbeatable prices for a limited time.</p>
+                           <div class="btn">
+                            <button onclick="BuyNow()">Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button class="back" onclick="goback()">Back</button>
+
+                    </div>
+                 </div>
+
+                <!-- blogs -->
+                <div class="trends">
+                    <div class="head">
+                        <h1>SS <span>Blog's</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="blog">
+                            <img src="tr1.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Turkish Abaya</h2>
+                                <p>Trending Turkish Abaya features elegant designs with modern cuts and contemporary style.</p>
+                                <a href="https://anzaarlifestyle.com/category/abaya01?gg__price=0%2C9000000">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="tr3.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Abaya Azlaan</h2>
+                                <p>Trending Abaya Azlaan combines sleek design and elegance, perfect for modern, modest fashion.</p>
+                                <a href="https://iraniborkabazar.com/search/?product-category[]=abaya">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Letter -->
+
+                <div class="letter">
+                    <div class="letterText">
+                        <h1>Sign Up for NewsLetter</h1>
+                        <p>Stay updated on the latest collections, exclusive offers, and new arrivals by signing up for the SS Burqa House Newsletter.</p>
+                    </div>
+                    <div class="inp">
+                        <input type="text" placeholder="Enter Email">
+                        <button> Sign Up </button>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footerText">
+                        <h2>SS</h2>
+                        <p>Service </p>
+                        <p>Customer</p>
+                        <p>Satisfaction</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>About US</h2>
+                        <p>Adrress : Zindabazar,Sylhet <br>
+                            Bangladesh. <br>
+                        </p>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Satisfation</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Contect</h2>
+                        <p>+0880180000000</p>
+                        <p>Customer</p>
+                        <p>Coming up</p>
+                        <p>New Arrival</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Trending</h2>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Shops</p>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+            <script src="Web.js"></script>
+</body>
+</html>
